@@ -1,0 +1,5 @@
+0x2Bb68E53e3263B8E034c222a215E2B631E75e341
+
+local host: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+
+const token = await (await ethers.getContractFactory("Token")).attach("0x5FbDB2315678afecb367f032d93F642f64180aa3")
